@@ -6,7 +6,7 @@
 	export let slice;
 </script>
 
-<section class="flex items-center justify-center h-screen tracking-widest">
+<section class="flex text-xl uppercase items-center justify-center h-screen tracking-widest">
 	<PrismicRichText
 		field={slice.primary.content}
 		components={{
