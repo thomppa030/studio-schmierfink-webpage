@@ -1,7 +1,12 @@
 <script>
+	import '../app.css';
 	import { PrismicPreview } from '@prismicio/svelte/kit';
 	import { page } from '$app/stores';
 	import { repositoryName } from '$lib/prismicio';
+	// Supports weights 200-700
+	import '@fontsource-variable/oswald';
+	// Supports weights 100-900
+	import '@fontsource-variable/raleway';
 </script>
 
 <svelte:head>
